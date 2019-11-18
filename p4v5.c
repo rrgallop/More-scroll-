@@ -185,7 +185,6 @@ char* read_and_return(FILE *fp){
    where COLS is the width of the console window. 
    If a '\n' is encountered, or we have COLS chars, return the string.
  */
-// ******* STILL DOESN'T HANDLE TABS PROPERLY *******
 
 char* fill_line(char* input){
 
